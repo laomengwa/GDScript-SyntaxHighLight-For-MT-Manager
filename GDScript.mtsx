@@ -61,9 +61,9 @@
             end: {match: /(?m)$/}
             style: "docComment"
             contains: [
-                {match: /(?i)\b(ALERT|AT|CRITICALDANGER|SECURITY)\b/, 0: "critical"},
-                {match: /(?i)\b(BUG|DEPRECATED|FIXME|HACK|TASK|TBD|TODO|WARNING)\b/, 0: "warning"},
-                {match: /(?i)\b(INFO|NOTE|NOTICE|TEST|TESTING)\b/, 0: "notice"},
+                {match: /\b(ALERT|AT|CRITICALDANGER|SECURITY)\b/, 0: "critical"},
+                {match: /\b(BUG|DEPRECATED|FIXME|HACK|TASK|TBD|TODO|WARNING)\b/, 0: "warning"},
+                {match: /\b(INFO|NOTE|NOTICE|TEST|TESTING)\b/, 0: "notice"},
             ]
         },
         // 普通注释
@@ -72,9 +72,9 @@
             end: {match: /(?m)$/}
             style: "comment"
             contains: [
-                {match: /(?i)\b(ALERT|AT|CRITICALDANGER|SECURITY)\b/, 0: "critical"},
-                {match: /(?i)\b(BUG|DEPRECATED|FIXME|HACK|TASK|TBD|TODO|WARNING)\b/, 0: "warning"},
-                {match: /(?i)\b(INFO|NOTE|NOTICE|TEST|TESTING)\b/, 0: "notice"},
+                {match: /\b(ALERT|AT|CRITICALDANGER|SECURITY)\b/, 0: "critical"},
+                {match: /\b(BUG|DEPRECATED|FIXME|HACK|TASK|TBD|TODO|WARNING)\b/, 0: "warning"},
+                {match: /\b(INFO|NOTE|NOTICE|TEST|TESTING)\b/, 0: "notice"},
             ]
         },
 
