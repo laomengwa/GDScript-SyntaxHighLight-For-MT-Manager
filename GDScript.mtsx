@@ -147,7 +147,7 @@
         // 内置类型 / 原生类 → type
         {
             match: keywordsToRegex(
-                "void bool int float String NodePath RID Vector2 Vector2i Rect2 Rect2i Transform2D Vector3 Vector3i Basis Quaternion Plane AABB Transform3D Projection Color Image Array Dictionary PackedByteArray PackedInt32Array PackedInt64Array PackedFloat32Array PackedFloat64Array PackedStringArray PackedVector2Array PackedVector3Array PackedColorArray Object RefCounted"
+                "void bool int float String NodePath RID Vector2 Vector2i Rect2 Rect2i Transform2D Vector3 Vector3i Vector4 Vector4i Basis Quaternion Plane AABB Transform3D Projection Color Image Array Dictionary PackedByteArray PackedInt32Array PackedInt64Array PackedFloat32Array PackedFloat64Array PackedStringArray PackedVector2Array PackedVector3Array PackedVector4Array PackedColorArray Object RefCounted Signal Node Node2D Node3D Control StringName Callable Variant"
             ),
             0: "type"
         },
