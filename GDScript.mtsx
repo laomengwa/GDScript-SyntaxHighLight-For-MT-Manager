@@ -131,7 +131,7 @@
 
         // 普通关键字
         {
-            match: keywordsToRegex("var const static is as in and or not self super await yield"),
+            match: keywordsToRegex("var const static signal is as in and or not self super await yield"),
             0: "keyword"
         },
 
