@@ -140,7 +140,7 @@
 
         // 控制流关键字 → 单独样式 contorKeyword
         {
-            match: keywordsToRegex("if elif else for while match break continue return pass"),
+            match: keywordsToRegex("if elif else for while match break continue return pass when"),
             0: "contorKeyword"
         },
 
